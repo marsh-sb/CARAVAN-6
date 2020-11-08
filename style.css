@@ -9,14 +9,24 @@ a {
   text-decoration: none;
 }
 
+header, nav, h2, .main-visual, footer {
+  font-family: chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif;
+}
+
 header {
   width: 90%;
   padding: 15px 0;
   margin: 0 auto;
   text-align: center;
+  position: relative;
 }
 
-header .heading{
+.social i {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+header .headline {
   font-size: 32px;
 
 }
@@ -211,3 +221,4 @@ footer {
 .footer-text {
   color: #fff;
 }
+
